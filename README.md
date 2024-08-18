@@ -16,5 +16,6 @@ Feature List
 - delete button for list items
 - layout to include space for future developments
 
-![Image](https://github.com/user-attachments/assets/1a64180b-22d6-4d57-800a-532b2bb96626)
+<img width="733" alt="Screenshot 2024-08-18 at 17 40 18" src="https://github.com/user-attachments/assets/c598e508-d65c-428c-bbf6-4c65ce7cb7a9">
+
 
