@@ -12,3 +12,7 @@
     height: 50px;
     width: 50px;
 }
+
+.lineThrough {
+    text-decoration: line-through;
+}

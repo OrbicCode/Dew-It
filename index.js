@@ -26,15 +26,16 @@ function addListItem(e) {
 }
 
 // do a basic text-transformation when the tick button is pressed
-// grab the tick button
-// grab the list item
+    // grab the tick button
+    // grab the list item
 // create a function that transforms the text when the tick button is clicked
+    //when the button is clicked give the text a new class
 
-// const tickButton = document.getElementById("tick")
-// const listItemText = document.getElementById("listItemText")
+const tickButton = document.getElementById("tick")
+const listItemText = document.getElementById("listItemText")
 
-// tickButton.addEventListener('click', )
+tickButton.addEventListener('click', checkListItem)
 
-// function checkListItem() {
-
-// }
+function checkListItem() {
+    listItemText.classList.toggle('lineThrough')
+}
