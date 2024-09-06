@@ -1,7 +1,12 @@
+# General
+
+## Brain Hits
+- need to use figjam to create low/mid fidelity wireframes and update them in my README
 
 ## Ideation
-
 - make tick button a radio button / explore google fonts for icons
+
+# Code Plan
 
 ## Header
 
