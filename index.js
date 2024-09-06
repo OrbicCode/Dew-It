@@ -25,10 +25,10 @@ function addListItem(e) {
     textBox.value = ""
 }
 
-// do a basic text-transformation when the tick button is pressed
+// do a basic text-decoration change when the tick button is pressed
     // grab the tick button
     // grab the list item
-// create a function that transforms the text when the tick button is clicked
+// create a function that changes the text when the tick button is clicked
     //when the button is clicked give the text a new class
 
 const tickButton = document.getElementById("tick")
