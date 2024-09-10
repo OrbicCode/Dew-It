@@ -11,19 +11,51 @@ const list = document.getElementById('list-container')
 
 addButton.addEventListener('click', addListItem)
 
+// creating a new li item
+// need to create 3 buttons and a <p>
+
+function handleNewButton(buttonText, buttonClass) {
+    const button = document.createElement('button');
+    button.innerHTML = buttonText;
+    button.className = buttonClass;
+    return button
+}
+
+function handleNewListItem(text) {
+    const listItem = document.createElement('li');
+
+    const listText = document.createElement('p');
+    
+    const tickButton = handleNewButton('✅')
+
+    listText.innerHTML = text;
+
+    const editButton = handleNewButton('✏️')
+
+    const deleteButton = handleNewButton('❌')
+
+    listItem.append(tickButton, listText, editButton, deleteButton);
+    
+    list.appendChild(listItem);
+    
+    // clears the textbox after input
+    textBox.value = "";
+}
+
 function addListItem(e) {
     e.preventDefault();
     const text = textBox.value.trim();
 
     // if the textbox isn't empty
-    if (text !== "") {
-        const listItem = document.createElement('li');
-        listItem.textContent = text;
-        list.appendChild(listItem)
+    if (text == "") {
+        return;
     }
-    // clears the textbox after input
-    textBox.value = ""
+
+    handleNewListItem(text)  
 }
+
+
+
 
 // do a basic text-decoration change when the tick button is pressed
     // grab the tick button

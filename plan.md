@@ -1,7 +1,8 @@
 # General
 
-## Brain Hits
+## Brain knocks
 - need to use figjam to create low/mid fidelity wireframes and update them in my README
+- add a purpose section to README explaining why you chose to stick with JS and CRUD
 
 ## Ideation
 - make tick button a radio button / explore google fonts for icons
