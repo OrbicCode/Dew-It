@@ -6,6 +6,7 @@
 
 ## Ideation
 - make tick button a radio button / explore google fonts for icons
+- ask a.i. how it would build a todo list app
 
 # Code Plan
 

@@ -35,7 +35,6 @@ function handleNewListItem(text) {
     list.appendChild(listItem);
 
     listItem.id = `listItem-${addId}`;
-    console.log(listItem.id)
     
     textBox.value = "";
 }
@@ -51,8 +50,6 @@ function addListItem(e) {
     handleNewListItem(text)  
 }
 
-const listItemText = document.getElementById("listItemText")
-
 document.body.addEventListener("click", function (evt) {
     handleCrud(evt.target.id)
 })
@@ -65,6 +62,10 @@ function handleCrud(id) {
             listItemTick.classList.toggle('lineThrough');
             break;
         case 'edit':
+            let listItemEdit = document.getElementById(`listItemText-${idNum}`);
+            let newText = prompt('Enter New Text: ');
+            console.log(newText);
+            listItemEdit = newText;
             break;
         case 'delete':
             const listItemDelete = document.getElementById(`listItem-${idNum}`);
