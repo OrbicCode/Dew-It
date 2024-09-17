@@ -10,6 +10,10 @@
 
 # Code Plan
 
+## HTML / CSS
+
+ - need to add structure with grids and flex first - get the layout of the page
+
 ## Header
 
 ## Main
