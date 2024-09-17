@@ -39,6 +39,8 @@ function handleNewListItem(text) {
     tickButton.id = `tick-${addId}`
     editButton.id = `edit-${addId}`
     deleteButton.id = `delete-${addId}`
+
+    listItem.className = 'listItem'
     
     textBox.value = "";
 }

@@ -1,6 +1,40 @@
+body {
+    background-color: black;
+    color: #fff;
+}
+
+.background-image {
+    background-image: url(./Images/neon-mountain.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw; 
+    opacity: calc(50%);
+}
+
+.listItem {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px 50px;
+    grid-template-rows: 1;
+    border : 3px solid white;
+    width: 50%;
+}
+
+.listItem p {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
 .tick {
     height: 50px;
     width: 50px;
+}
+
+.lineThrough {
+    text-decoration: line-through;
 }
 
 .delete {
@@ -13,6 +47,3 @@
     width: 50px;
 }
 
-.lineThrough {
-    text-decoration: line-through;
-}
