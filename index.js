@@ -35,6 +35,10 @@ function handleNewListItem(text) {
     list.appendChild(listItem);
 
     listItem.id = `listItem-${addId}`;
+    listText.id = `listItemText-${addId}`;
+    tickButton.id = `tick-${addId}`
+    editButton.id = `edit-${addId}`
+    deleteButton.id = `delete-${addId}`
     
     textBox.value = "";
 }
@@ -42,35 +46,49 @@ function handleNewListItem(text) {
 function addListItem(e) {
     e.preventDefault();
     const text = textBox.value.trim();
-
     if (text == "") {
         return;
     }
-
     handleNewListItem(text)  
 }
+const listContainer = document.getElementById('list-container')
 
-document.body.addEventListener("click", function (evt) {
+listContainer.addEventListener("click", function (evt) {
     handleCrud(evt.target.id)
 })
 
 function handleCrud(id) {
     const [action, idNum] = id.split('-');
+    console.log(idNum)
     switch (action) {
         case 'tick':
             const listItemTick = document.getElementById(`listItemText-${idNum}`);
-            listItemTick.classList.toggle('lineThrough');
+            if (listItemTick) {
+                listItemTick.classList.toggle('lineThrough');
+            } else {
+                console.error(`Element with ID listItemText-${idNum} not found`);
+            }
             break;
         case 'edit':
-            let listItemEdit = document.getElementById(`listItemText-${idNum}`);
-            let newText = prompt('Enter New Text: ');
-            console.log(newText);
-            listItemEdit = newText;
+            const listItemEdit = document.getElementById(`listItemText-${idNum}`);
+            if (listItemEdit) {
+                const newText = prompt("Edit your item:", listItemEdit.innerHTML);
+                if (newText !== null && newText.trim() !== "") {
+                    listItemEdit.innerHTML = newText;
+                }
+            } else {
+                console.error(`Element with ID listItemText-${idNum} not found`);
+            }
             break;
         case 'delete':
             const listItemDelete = document.getElementById(`listItem-${idNum}`);
-            listItemDelete.remove();
+            if (listItemDelete) {
+                listItemDelete.remove();
+            } else {
+                console.error(`Element with ID listItem-${idNum} not found`);
+            }
             break;
-        default: console.log('nope');
+        default: 
+            console.error(`Unknown action: ${action}`);
     }
 }
