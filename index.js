@@ -117,4 +117,4 @@ async function loadNasa() {
     nasaTitle.innerText = data.title
 }
 
-loadNasa()
+// loadNasa()

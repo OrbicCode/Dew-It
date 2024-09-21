@@ -38,4 +38,9 @@
 
 ## Widgets
 
-- add grid layout
+- add grid layout 🟢
+- add button for nasa img so api isn't called straight away
+- style box (button, text)
+- get proportions right for nasa box
+
+- style fact button
