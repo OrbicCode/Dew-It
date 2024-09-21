@@ -2,7 +2,7 @@
 
 ## To Research
 
-- CSS transition
+- CSS transition 🟢
 
 ## Brain knocks
 - use Coolers site to play around with colour palettes. Needs to be colourful and playful 🟠
@@ -15,7 +15,7 @@
 
 ## HTML / CSS
 - need to add structure with grids and flex - get the layout of the page 🟠
-- play around and decide colour palet 
+- play around and decide colour palet 🟠
 
 ## input bar
 
@@ -38,4 +38,4 @@
 
 ## Widgets
 
-- 
+- add grid layout
