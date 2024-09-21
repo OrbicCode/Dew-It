@@ -75,6 +75,7 @@ header {
     border-radius: 1rem;
     min-height: 500px;
     max-height: 500px;
+    overflow-y: scroll;
 }
 
 .listItem {
@@ -86,11 +87,16 @@ header {
     border-radius: 25px;
     height: 3rem;
     margin: 0.5rem 0.5rem;
-    transition: background-color 1s ease;
+    transition: 1s background-color ease, transform 0.5s ease;
+}
+
+.listItem:hover {
+    transform: translateY(-3px);
 }
 
 .listItem p {
     text-align: center;
+    overflow-x: hidden;
 }
 
 .listItem button {
