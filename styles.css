@@ -1,15 +1,7 @@
 body {
-    background-color: black;
-    color: #fff;
-}
-
-.background-image {
-    background-image: url(./Images/neon-mountain.png);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw; 
-    opacity: calc(50%);
+    background-color: #f7ede2;
+    color: #005f73;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 .listItem {
@@ -18,6 +10,10 @@ body {
     grid-template-rows: 1;
     border : 3px solid white;
     width: 50%;
+    border-radius: 25px;
+    background-color: #e9d8a6;
+    border: none;
+    margin: 10px 0;
 }
 
 .listItem p {
@@ -25,12 +21,19 @@ body {
     justify-content: center;
 }
 
-
-
+.listItem button {
+    border-radius: 100%;
+}
 
 .tick {
+    background-image: url(/Images/check.svg);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-color: #0a9396;
     height: 50px;
     width: 50px;
+    border: none;
 }
 
 .lineThrough {
@@ -38,12 +41,28 @@ body {
 }
 
 .delete {
+    background-image: url(/Images/delete.svg);
+    background-position: center;
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-color: #ae2012;
+    color: black;
     height: 50px;
     width: 50px;
+    border: none;
 }
 
 .edit {
+    background-image: url(/Images/edit.svg);
+    background-position: center;
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-color: #ee9b00;
     height: 50px;
     width: 50px;
+    border: none;
 }
 
+h1 {
+    text-align: center;
+}

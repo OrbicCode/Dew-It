@@ -12,7 +12,7 @@ function handleNewButton(buttonText, buttonClass) {
     return button
 }
 
-let idCounter = 0;
+let idCounter = 1;
 
 function handleNewListItem(text) {
 

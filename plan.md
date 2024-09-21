@@ -11,7 +11,6 @@
 # Code Plan
 
 ## HTML / CSS
-
  - need to add structure with grids and flex first - get the layout of the page
 
 ## Header
@@ -22,6 +21,8 @@
 - create form ✅
 - create text input ✅
 - create Add button ✅
+
+need to update plan around what has been done so far 
 
 ### List item functionality
 - add very basic CRUD functionality
