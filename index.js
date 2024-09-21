@@ -5,9 +5,8 @@ const list = document.getElementById('list-container')
 
 addButton.addEventListener('click', addListItem)
 
-function handleNewButton(buttonText, buttonClass) {
+function handleNewButton(buttonClass) {
     const button = document.createElement('button');
-    button.innerHTML = buttonText;
     button.className = buttonClass;
     return button
 }
@@ -22,13 +21,13 @@ function handleNewListItem(text) {
 
     const listText = document.createElement('p');
     
-    const tickButton = handleNewButton('✅', 'tick')
+    const tickButton = handleNewButton('tick')
 
     listText.innerHTML = text;
 
-    const editButton = handleNewButton('✏️', 'edit')
+    const editButton = handleNewButton('edit')
 
-    const deleteButton = handleNewButton('❌', 'delete')
+    const deleteButton = handleNewButton('delete')
 
     listItem.append(tickButton, listText, editButton, deleteButton);
     
