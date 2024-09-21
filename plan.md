@@ -16,8 +16,18 @@
 
  - need to figure out how to place button inside input
 
+ - change colour of 
+
 ## List Items
+
+ - fix misalignment, need to center it
 
  - need to figure out how to <"i am a list item"...> so the list items can stay the same height
 
- - need to group the edit and delete button 
+ - group the edit and delete button 
+
+ - add colour change animation when tick is pressed
+
+ - add a hover animation
+
+ - add hover colour changes to buttons 
