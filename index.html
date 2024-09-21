@@ -7,41 +7,39 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="background-image">
-        <div class="wrapper">
-            <header class="header">
-                <h1>DEW IT</h1>
+    <div class="wrapper">
+        <header class="header">
+            <h1>DEW IT</h1>
+        </header>
+        <main>
+            <div class="list-box">
                 <img src="./images/DewIt.webp">
-            </header>
-            <main>
-                <div class="list-box">
-                    <h2>KILL THE LIST</h2>
-                    <div class="input-bar">
-                        <form method="post" action="">
-                            <input type="text" id="text-box">
-                            <button type="submit" id="add-button">Add</button>
-                        </form>    
-                    </div>
-                    <div class="list-items">
-                        <ol id="list-container">
-                            <li id="listItem-0" class="listItem">
-                                <button id="tick-0" class="tick"></button>
-                                <p id="listItemText-0">I am a list item</p>
-                                <button id="edit-0" class="edit"></button>
-                                <button id="delete-0" class="delete"></button>
-                            </li>
-                        </ol>
-                    </div>
+                <h2>KILL THE LIST</h2>
+                <div class="input-bar">
+                    <form method="post" action="">
+                        <input type="text" id="text-box">
+                        <button type="submit" id="add-button">Add</button>
+                    </form>    
                 </div>
-                <div class="widget-box">
-                    <div class="nasa-widget"></div>
-                    <div class="secondary-widget"></div>
+                <div class="list-items">
+                    <ol id="list-container">
+                        <li id="listItem-0" class="listItem">
+                            <button id="tick-0" class="tick"></button>
+                            <p id="listItemText-0">I am a list item</p>
+                            <button id="edit-0" class="edit"></button>
+                            <button id="delete-0" class="delete"></button>
+                        </li>
+                    </ol>
                 </div>
-            </main>
-            <footer class="footer">
+            </div>
+            <div class="widget-box">
+                <div class="nasa-widget"></div>
+                <div class="secondary-widget"></div>
+            </div>
+        </main>
+        <footer class="footer">
 
-            </footer>
-        </div>
+        </footer>
     </div>
     <script src="index.js"></script>
 </body>
