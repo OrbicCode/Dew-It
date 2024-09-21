@@ -25,7 +25,15 @@ body {
     border: none;
     border-radius: 3rem;
     height: 3rem;
-    width: 100%
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    color: #577590;
+}
+
+.input-bar input:focus {
+    background-color: #f9c64ff2;
+    outline: none;
 }
 
 .input-bar button {
@@ -36,6 +44,13 @@ body {
     width: 3rem;
     position: absolute;
     right: 0;
+    font-size: 1rem;
+    color: #577590;
+    transition: background-color 0.3s ease;
+}
+
+.input-bar button:hover {
+    background-color: #f8961e;
 }
 
 .listItem {
