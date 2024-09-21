@@ -16,7 +16,7 @@ body {
 }
 
 .input-bar {
-
+    width: 100%;
 }
 
 .input-bar input {
@@ -24,6 +24,7 @@ body {
     border: none;
     border-radius: 10px;
     height: 3rem;
+    width: 20rem
 }
 
 .input-bar button {
