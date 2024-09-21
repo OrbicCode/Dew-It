@@ -55,6 +55,10 @@ header {
     outline: none;
 }
 
+.input-bar input::placeholder {
+    color: #e9d8a6;
+}
+
 .input-bar button {
     background-color: #00374d;
     transition: background-color 0.3s ease;
@@ -68,7 +72,7 @@ header {
     position: absolute;
     right: 0;
     font-size: 1rem;
-
+    padding-right: 0.65rem;
 }
 
 .input-bar button:hover {
@@ -169,7 +173,6 @@ header {
 .widget-box {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    border: 1px solid black;
     height: 75%;
     margin-right: 1rem;
     position: fixed;
@@ -190,11 +193,17 @@ header {
     height: 100%;
     width: 100%;
     margin: 0;
+    font-size: 0.7rem;
 }
 
 #nasa-img {
     width: 100%;
     height: 100%;
+    background-image: url("./Images/neon-mountain.png");
+    background-position: center;
+    background-size: cover;
+    border: none;
+    outline: none;
 }
 
 .nasa-widget button {
@@ -204,26 +213,24 @@ header {
 }
 
 .fact-widget {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-height: 250px;
+    display: grid;
+    grid-template-rows: 1fr 2rem;
+    min-height: 100%;
 }
 
 .fact-widget p {
-    margin: 1rem;
-    border: 1px solid black;
     text-align: center;
+    padding: 0.5rem;
+    overflow-y: scroll;
 }
 
 .fact-widget button {
-    position: absolute;
-    bottom: 0;
+
 }
 
 h1 {
     font-size: 2rem;
-    margin-left: 50px;
+    margin-left: 3rem;
 }
 
 h2 {

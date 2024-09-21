@@ -39,8 +39,9 @@
 ## Widgets
 
 - add grid layout 🟢
-- add button for nasa img so api isn't called straight away
-- style box (button, text)
-- get proportions right for nasa box
+- add button for nasa img 🟢
+- add button click API call for NASA image 🟢
+- style (button, text) choose colours
+- get proportions right for nasa box (max-values)
 
 - style fact button
