@@ -63,7 +63,7 @@ function handleCrud(id) {
     console.log(idNum)
     switch (action) {
         case 'tick':
-            const listItemTick = document.getElementById(`listItemText-${idNum}`);
+            const listItemTick = document.getElementById(`listItem-${idNum}`);
             if (listItemTick) {
                 listItemTick.classList.toggle('lineThrough');
             } else {
