@@ -16,24 +16,26 @@ body {
 }
 
 .input-bar {
-    width: 100%;
+    position: relative;
+    width: 75%;
 }
 
 .input-bar input {
     background-color: #f9c74f;
     border: none;
-    border-radius: 10px;
+    border-radius: 3rem;
     height: 3rem;
-    width: 20rem
+    width: 100%
 }
 
 .input-bar button {
     background-color: #f9844a;
     border: none;
-    border-radius: 10px;
+    border-radius: 3rem;
     height: 3rem;
     width: 3rem;
-    margin-left: -5px;
+    position: absolute;
+    right: 0;
 }
 
 .listItem {
@@ -43,9 +45,7 @@ body {
     background-color: #e9d8a6;
     border: none;
     margin: 10px 0;
-    height: 3rem;
     color: #277da1;
-    width: 500px
 }
 
 .listItem p {
@@ -64,8 +64,6 @@ body {
     background-size: 1.5rem;
     background-repeat: no-repeat;
     background-color: #43aa8b;
-    height: 3rem;
-    width: 3rem;
     border: none;
 }
 
@@ -80,8 +78,6 @@ body {
     background-repeat: no-repeat;
     background-color: #ae2012;
     color: black;
-    height: 3rem;
-    width: 3rem;
     border: none;
 }
 
@@ -91,8 +87,6 @@ body {
     background-size: 1.5rem;
     background-repeat: no-repeat;
     background-color: #ee9b00;
-    height: 3rem;
-    width: 3rem;
     border: none;
 }
 
