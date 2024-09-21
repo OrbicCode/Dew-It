@@ -22,13 +22,14 @@ body {
 
 .input-bar input {
     background-color: #f9c74f;
+    color: #577590;
     border: none;
     border-radius: 3rem;
     height: 3rem;
     width: 100%;
     padding: 1rem;
     font-size: 1.1rem;
-    color: #577590;
+    text-align: center;
 }
 
 .input-bar input:focus {
@@ -38,6 +39,8 @@ body {
 
 .input-bar button {
     background-color: #f9844a;
+    transition: background-color 0.3s ease;
+    color: #577590;
     border: none;
     border-radius: 3rem;
     height: 3rem;
@@ -45,41 +48,45 @@ body {
     position: absolute;
     right: 0;
     font-size: 1rem;
-    color: #577590;
-    transition: background-color 0.3s ease;
+
 }
 
 .input-bar button:hover {
     background-color: #f8961e;
 }
 
+#list-container {
+    width: 75%;
+    padding: 0;
+}
+
 .listItem {
-    display: flex;
-    justify-content: space-between;
-    border-radius: 25px;
     background-color: #e9d8a6;
-    border: none;
-    margin: 10px 0;
     color: #277da1;
+    display: grid;
+    grid-template-columns: 3rem 1fr 3rem 3rem;
+    border: none;
+    border-radius: 25px;
+    height: 3rem;
+    margin: 0.5rem 0;
 }
 
 .listItem p {
-    display: flex;
-    justify-content: center;
-    margin: auto 2rem;
+    text-align: center;
 }
 
 .listItem button {
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 .tick {
+    background-color: #43aa8b;
     background-image: url(/Images/check.svg);
     background-position: center;
-    background-size: 1.5rem;
     background-repeat: no-repeat;
-    background-color: #43aa8b;
     border: none;
+    height: 3rem;
+    width: 3rem;
 }
 
 .lineThrough {
@@ -87,22 +94,23 @@ body {
 }
 
 .delete {
+    background-color: #ae2012;
     background-image: url(/Images/delete.svg);
     background-position: center;
-    background-size: 1.5rem;
     background-repeat: no-repeat;
-    background-color: #ae2012;
-    color: black;
     border: none;
+    height: 3rem;
+    width: 3rem;
 }
 
 .edit {
+    background-color: #ee9b00;
     background-image: url(/Images/edit.svg);
     background-position: center;
-    background-size: 1.5rem;
     background-repeat: no-repeat;
-    background-color: #ee9b00;
     border: none;
+    height: 3rem;
+    width: 3rem;
 }
 
 h1 {

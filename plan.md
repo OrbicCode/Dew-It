@@ -25,9 +25,11 @@
 
 ## List Items
 
- - fix misalignment, need to center it
+ - fix all sizing issues (buttons and bar) 🟢
+ - fix misalignment, need to center 🟢
  - need to figure out how to <"i am a list item"...> so the list items can stay the same height
- - group the edit and delete button 
+ - group the edit and delete button 🟢
  - add colour change animation when tick is pressed
  - add a hover animation
  - add hover colour changes to buttons 
+ - add scrolling capability
