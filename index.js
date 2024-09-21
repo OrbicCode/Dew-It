@@ -93,3 +93,28 @@ function handleCrud(id) {
             console.error(`Unknown action: ${action}`);
     }
 }
+
+const factButton = document.getElementById('fact-button')
+let factText = document.getElementById('fact-text')
+
+factButton.addEventListener('click', handleFact)
+
+async function handleFact() {
+    const response = await fetch('https://uselessfacts.jsph.pl/api/v2/facts/random')
+    const data = await response.json()
+    
+    factText.innerText = data.text
+}
+
+let nasaImg = document.getElementById('nasa-img')
+let nasaTitle = document.getElementById('nasa-title')
+
+async function loadNasa() {
+    const response = await fetch('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY')
+    const data = await response.json()
+
+    nasaImg.setAttribute('src', data.url)
+    nasaTitle.innerText = data.title
+}
+
+loadNasa()

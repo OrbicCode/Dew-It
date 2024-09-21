@@ -171,8 +171,25 @@ header {
     width: 25%;
 }
 
-.nasa-widget {
+.fact-widget {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 250px;
+}
+
+.fact-widget p {
+    min-height: 150px;
+    overflow-y: scroll;
+    margin: 1rem;
     border: 1px solid black;
+    max-width: 90%;
+    text-align: center;
+}
+
+.fact-widget button {
+    margin-bottom: 1rem;
 }
 
 h1 {
