@@ -117,7 +117,7 @@ header {
 
 .tick {
     background-color: #43aa8b;
-    background-image: url(/Images/check.svg);
+    background-image: url('./Images/check.svg');
     background-position: center;
     background-repeat: no-repeat;
     border: none;
@@ -138,7 +138,7 @@ header {
 
 .edit {
     background-color: #ee9b00;
-    background-image: url(/Images/edit.svg);
+    background-image: url('./Images/edit.svg');
     background-position: center;
     background-repeat: no-repeat;
     border: none;
@@ -156,7 +156,7 @@ header {
 
 .delete {
     background-color: #ae2012;
-    background-image: url(/Images/delete.svg);
+    background-image: url('./Images/delete.svg');
     background-position: center;
     background-repeat: no-repeat;
     border: none;
