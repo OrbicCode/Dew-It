@@ -80,7 +80,7 @@ function handleCrud(id) {
                 listItemDelete.remove();
             break;
         default: 
-            console.error(`OOOOOOps`);
+            console.error(`ooooooops`);
     }
 }
 
@@ -102,19 +102,20 @@ async function loadNasaImg() {
     }
 }
 
-const factButton = document.getElementById('fact-button')
-let factText = document.getElementById('fact-text')
+const factButton = document.getElementById('joke-button');
+let setup = document.getElementById('setup');
+let punch = document.getElementById('punch');
 
-factButton.addEventListener('click', handleFact)
+factButton.addEventListener('click', handleFact);
 
 async function handleFact() {
-        const response = await fetch('https://uselessfacts.jsph.pl/api/v2/facts/random')
+        const response = await fetch('https://official-joke-api.appspot.com/random_joke')
         const data = await response.json()
         
-        if (data.text === undefined) {
-            factText.innerText = `Server Failure:\n\nTry again later my apprentice`
+        if (data.text === null) {
+            setup.innerText = `Server Failure:\n\nTry again later my apprentice`
         } else {
-            factText.innerText = data.text
+            setup.innerText = `${data.setup}\n\n${data.punchline}`
         }
         
 }

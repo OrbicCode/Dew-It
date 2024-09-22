@@ -39,7 +39,7 @@
 - add a hover animation on list item 🟢
 - add hover colour changes to buttons 🟢
 - add scrolling capability 🟢
-- text overflow 🔴
+- text overflow 🟢
 
 ## Widgets
 
