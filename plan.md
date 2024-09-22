@@ -2,11 +2,11 @@
 
 ## To Research
 
-- CSS transition 🟢
+- CSS transition 🟠
 
 ## Brain knocks
 - use Coolers site to play around with colour palettes. Needs to be colourful and playful 🟠
-- add a purpose section to README explaining why you chose to stick with JS and CRUD
+- README
 
 ## Ideation
 - make tick button a radio button / explore google fonts for icons 🟢
@@ -14,7 +14,7 @@
 # Code Plan
 
 ## HTML / CSS
-- need to add structure with grids and flex - get the layout of the page 🟠
+- need to add structure with grids and flex - get the layout of the page 🟢
 - play around and decide colour palet 🟠
 
 ## input bar
@@ -40,7 +40,7 @@
 
 - add grid layout 🟢
 - add button for nasa img 🟢
-- add button click API call for NASA image 🟢
+- add button click API call for NASA image
 - style (button, text) choose colours
 - get proportions right for nasa box (max-values)
 
