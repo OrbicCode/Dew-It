@@ -17,6 +17,17 @@ body {
 header {
     display: flex;
     align-items: center;
+
+}
+
+.header-img {
+    background-image: url("./Images/logo.svg");
+    background-position: center;
+    background-size: cover;
+    height: 4rem;
+    width: 4rem;
+    margin-left: 3rem;
+    margin-right: -1rem;
 }
 
 .emporer {
@@ -178,7 +189,7 @@ header {
     height: 75%;
     margin-right: 1rem;
     position: fixed;
-    top: 5rem; 
+    top: 7.5rem; 
     right: 2rem;
     width: 25%;
     border: 2px solid #e9d8a6;
