@@ -95,6 +95,7 @@ header img {
     right: 0;
     font-size: 1rem;
     padding-right: 0.65rem;
+    cursor: pointer;
 }
 
 .input-bar button:hover {
@@ -147,6 +148,7 @@ header img {
     height: 3rem;
     width: 3rem;
     transition: background-color 0.3s ease;
+    cursor: pointer;
 }
 
 .tick:hover {
@@ -170,6 +172,7 @@ header img {
     height: 3rem;
     width: 3rem;
     transition: background-color 0.3s ease;
+    cursor: pointer;
 }
 
 .edit:hover {
@@ -187,6 +190,7 @@ header img {
     height: 3rem;
     width: 3rem;
     transition: background-color 0.3s ease;
+    cursor: pointer;
 }
 
 .delete:hover {
@@ -236,6 +240,7 @@ header img {
    color: #e9d8a6;
    border: none;
    transition: 1s background-color ease;
+   cursor: pointer;
 }
 
 .nasa-widget button:hover {
@@ -264,6 +269,7 @@ header img {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     transition: 1s background-color ease;
+    cursor: pointer;
 }
 
 .joke-widget button:hover {

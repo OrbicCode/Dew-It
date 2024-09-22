@@ -17,6 +17,7 @@
 
 - remove console(log) 🟢
 - sort out the API key for the picture 🟢
+- add cursor pointer on buttons 🟢
 
 ## HTML / CSS
 - need to add structure with grids and flex - get the layout of the page 🟢
@@ -51,7 +52,8 @@
 - get proportions right for nasa box (max-values) 🟢
 - button hover colour change 🟢
 
-## Header + Footer
+## Header
 
 - add logo 🟢
-- footer - add created by
+- add orbic logo 🟢
+- add link to orbic logo portfolio 🔴
