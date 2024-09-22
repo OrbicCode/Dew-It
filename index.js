@@ -105,7 +105,7 @@ async function loadNasaImg() {
     const response = await fetch('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY')
     const data = await response.json()
 
-    nasaImg.setAttribute('src', data.url)
+    nasaImg.style.backgroundImage = `url(${data.url})`
     nasaTitle.innerText = data.title
     } catch (error) {
     console.error(error)

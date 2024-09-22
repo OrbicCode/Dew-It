@@ -40,8 +40,8 @@
 
 - add grid layout 🟢
 - add button for nasa img 🟢
-- add button click API call for NASA image
+- add button click API call for NASA image 🟢
 - style (button, text) choose colours
-- get proportions right for nasa box (max-values)
+- get proportions right for nasa box (max-values) 🟢
 
 - style fact button
