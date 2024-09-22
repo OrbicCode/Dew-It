@@ -17,7 +17,11 @@ body {
 header {
     display: flex;
     align-items: center;
+}
 
+header h1 {
+    font-size: 2rem;
+    margin-left: 0.5rem;
 }
 
 .header-img {
@@ -26,8 +30,6 @@ header {
     background-size: cover;
     height: 4rem;
     width: 4rem;
-    margin-left: 3rem;
-    margin-right: -1rem;
 }
 
 .emporer {
@@ -258,13 +260,4 @@ header {
 
 .joke-widget button:hover {
     background-color: #00374d;
-}
-
-h1 {
-    font-size: 2rem;
-    margin-left: 3rem;
-}
-
-h2 {
-    font-size: 1.5rem;
 }
