@@ -6,12 +6,16 @@
 
 ## Brain knocks
 - use Coolers site to play around with colour palettes. Needs to be colourful and playful 🟢
-- README 🔴
+- README 🟠 talk about user
 
 ## Ideation
 - make tick button a radio button / explore google fonts for icons 🟢
 
 # Code Plan
+
+## General
+
+- remove console(log)
 
 ## HTML / CSS
 - need to add structure with grids and flex - get the layout of the page 🟢
@@ -35,6 +39,7 @@
 - add a hover animation on list item 🟢
 - add hover colour changes to buttons 🟢
 - add scrolling capability 🟢
+- text overflow 🔴
 
 ## Widgets
 
@@ -43,3 +48,8 @@
 - add button click API call for NASA image 🟢
 - style (button, text) choose colours 🟢
 - get proportions right for nasa box (max-values) 🟢
+- button hover colour change 🔴
+
+## Header + Footer
+
+- 

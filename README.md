@@ -32,5 +32,7 @@ Below are two palettes that i decided tio use.
 
 ## Future Plans
 
-Now that I have developed this project in JavaScript. I want to translate this into a React project using Vite as it is only a one-page app.
+Now that I have developed this project in JavaScript. I want to translate this into a React project using Vite as it is only a one-page app. 
+
+More on this to come soon...
 

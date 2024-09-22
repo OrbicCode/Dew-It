@@ -60,37 +60,27 @@ listContainer.addEventListener("click", function (evt) {
 
 function handleCrud(id) {
     const [action, idNum] = id.split('-');
-    console.log(idNum)
     switch (action) {
         case 'tick':
             const listItemTick = document.getElementById(`listItem-${idNum}`);
-            if (listItemTick) {
+  
                 listItemTick.classList.toggle('lineThrough');
-            } else {
-                console.error(`Element with ID listItemText-${idNum} not found`);
-            }
             break;
         case 'edit':
             const listItemEdit = document.getElementById(`listItemText-${idNum}`);
-            if (listItemEdit) {
+
                 const newText = prompt("Edit your item:", listItemEdit.innerHTML);
                 if (newText !== null && newText.trim() !== "") {
                     listItemEdit.innerHTML = newText;
                 }
-            } else {
-                console.error(`Element with ID listItemText-${idNum} not found`);
-            }
             break;
         case 'delete':
             const listItemDelete = document.getElementById(`listItem-${idNum}`);
-            if (listItemDelete) {
+
                 listItemDelete.remove();
-            } else {
-                console.error(`Element with ID listItem-${idNum} not found`);
-            }
             break;
         default: 
-            console.error(`Unknown action: ${action}`);
+            console.error(`OOOOOOps`);
     }
 }
 
