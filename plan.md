@@ -15,7 +15,8 @@
 
 ## General
 
-- remove console(log)
+- remove console(log) 🟢
+- sort out the API key for the picture 🟢
 
 ## HTML / CSS
 - need to add structure with grids and flex - get the layout of the page 🟢
@@ -48,7 +49,7 @@
 - add button click API call for NASA image 🟢
 - style (button, text) choose colours 🟢
 - get proportions right for nasa box (max-values) 🟢
-- button hover colour change 🔴
+- button hover colour change 🟢
 
 ## Header + Footer
 

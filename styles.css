@@ -214,6 +214,11 @@ header {
    background-color: #005f73;
    color: #e9d8a6;
    border: none;
+   transition: 1s background-color ease;
+}
+
+.nasa-widget button:hover {
+    background-color: #00374d;
 }
 
 .joke-widget {
@@ -237,6 +242,11 @@ header {
     border: none;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    transition: 1s background-color ease;
+}
+
+.joke-widget button:hover {
+    background-color: #00374d;
 }
 
 h1 {
