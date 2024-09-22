@@ -17,6 +17,7 @@ body {
 header {
     display: flex;
     align-items: center;
+    height: 5rem;
 }
 
 header h1 {
@@ -24,12 +25,19 @@ header h1 {
     margin-left: 0.5rem;
 }
 
-.header-img {
+.header-logo {
     background-image: url("./Images/logo.svg");
     background-position: center;
     background-size: cover;
     height: 4rem;
     width: 4rem;
+}
+
+header img {
+    height: 1rem;
+    position: absolute;
+    right: 0;
+    margin-right: 2rem;
 }
 
 .emporer {
@@ -191,7 +199,7 @@ header h1 {
     height: 75%;
     margin-right: 1rem;
     position: fixed;
-    top: 7.5rem; 
+    top: 6.8rem; 
     right: 2rem;
     width: 25%;
     border: 2px solid #e9d8a6;

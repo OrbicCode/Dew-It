@@ -53,4 +53,5 @@
 
 ## Header + Footer
 
-- 
+- add logo 🟢
+- footer - add created by
