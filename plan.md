@@ -6,7 +6,7 @@
 
 ## Brain knocks
 - use Coolers site to play around with colour palettes. Needs to be colourful and playful 🟢
-- README
+- README 🔴
 
 ## Ideation
 - make tick button a radio button / explore google fonts for icons 🟢
