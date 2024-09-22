@@ -92,7 +92,7 @@ nasaButton.addEventListener('click', loadNasaImg)
 
 async function loadNasaImg() {
     try {
-    const response = await fetch('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY')
+    const response = await fetch(`https://api.nasa.gov/planetary/apod?api_key=${NASA_API_KEY}`)
     const data = await response.json()
 
     nasaImg.style.backgroundImage = `url(${data.url})`
