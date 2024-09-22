@@ -16,6 +16,11 @@ I would also like to see Nasa's photo of the day and have another fun widget on 
 - delete button for list items
 - layout to include space for future developments
 
+## UCD
+
+- I wanted to add the APIs because a todo list may be a place that you visit everyday. A photo of the day felt like a good idea as well as a joke that you can use throughout the day
+- I used a random fact API at first however i kept getting a 500 status error so I changed it to a random joke API.
+
 ## Design
 
 ### Wireframe
