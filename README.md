@@ -18,7 +18,7 @@ Client - "Cool, nice job, I like the reference buuuuuuuuuuutt, something seems o
 
 Me - "You mean Star Wars?"
 
-Client - "🤫 Shhhhh Disney are listening"
+Client - "🤫 Shhhhh Disney is listening"
 
 Me - "Youuuuuu got it 👍. MVP 2 coming up"
 
@@ -39,13 +39,13 @@ Me - "Youuuuuu got it 👍. MVP 2 coming up"
 ## Design
 
 ### Wireframe
-<img width="733" alt="Screenshot 2024-08-18 at 17 40 18" src="https://github.com/user-attachments/assets/c598e508-d65c-428c-bbf6-4c65ce7cb7a9">
+<img width="500" alt="Screenshot 2024-08-18 at 17 40 18" src="https://github.com/user-attachments/assets/c598e508-d65c-428c-bbf6-4c65ce7cb7a9">
 
 ### Colour Palette
 
 I wanted some muted colours for the design and a great resource I have found is the website [Coolers](https://coolors.co/). It offers great colour palette-finding features.
 
-Green Orange and Red should be used as people are used to these colours to signify done and delete. 
+Green Orange and Red should be used as people are used to these colours to signify done and deleted. 
 
 Below are two palettes that I decided to use. Nice and colourful.
 
