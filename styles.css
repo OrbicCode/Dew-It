@@ -3,6 +3,9 @@
 }
 
 body {
+    background-image: url(./Images/Stars.webp);
+    background-size: cover;
+    background-position: center;
     background: linear-gradient(270deg, #00374d, #005f73);
     color: #e9d8a6;
     font-family: Verdana, sans-serif;

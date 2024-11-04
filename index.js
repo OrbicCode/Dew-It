@@ -62,23 +62,23 @@ function handleCrud(id) {
     const [action, idNum] = id.split('-');
     switch (action) {
         case 'tick':
-            const listItemTick = document.getElementById(`listItem-${idNum}`);
+            { const listItemTick = document.getElementById(`listItem-${idNum}`);
   
                 listItemTick.classList.toggle('lineThrough');
-            break;
+            break; }
         case 'edit':
-            const listItemEdit = document.getElementById(`listItemText-${idNum}`);
+            { const listItemEdit = document.getElementById(`listItemText-${idNum}`);
 
                 const newText = prompt("Edit your item:", listItemEdit.innerHTML);
                 if (newText !== null && newText.trim() !== "") {
                     listItemEdit.innerHTML = newText;
                 }
-            break;
+            break; }
         case 'delete':
-            const listItemDelete = document.getElementById(`listItem-${idNum}`);
+            { const listItemDelete = document.getElementById(`listItem-${idNum}`);
 
                 listItemDelete.remove();
-            break;
+            break; }
         default: 
             console.error(`ooooooops`);
     }
@@ -104,7 +104,7 @@ async function loadNasaImg() {
 
 const factButton = document.getElementById('joke-button');
 let setup = document.getElementById('setup');
-let punch = document.getElementById('punch');
+// let punch = document.getElementById('punch');
 
 factButton.addEventListener('click', handleFact);
 
