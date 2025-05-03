@@ -18,19 +18,13 @@ function handleNewListItem(text) {
     let addId = idCounter++
     
     const listItem = document.createElement('li');
-
     const listText = document.createElement('p');
-    
     const tickButton = handleNewButton('tick')
-
-    listText.innerHTML = text;
-
     const editButton = handleNewButton('edit')
-
     const deleteButton = handleNewButton('delete')
 
+    listText.innerHTML = text;
     listItem.append(tickButton, listText, editButton, deleteButton);
-    
     list.appendChild(listItem);
 
     listItem.id = `listItem-${addId}`;
@@ -42,6 +36,7 @@ function handleNewListItem(text) {
     listItem.className = 'listItem'
     
     textBox.value = "";
+    saveToLocalStorage()
 }
 
 function addListItem(e) {
@@ -82,6 +77,7 @@ function handleCrud(id) {
         default: 
             console.error(`ooooooops`);
     }
+    saveToLocalStorage()
 }
 
 let nasaImg = document.getElementById('nasa-img')
@@ -119,5 +115,25 @@ async function handleFact() {
         }
         
 }
+
+function saveToLocalStorage() {
+    const listItems = Array.from(document.querySelectorAll('.listItem')).map(item => {
+        const id = item.id;
+        const text = item.querySelector('p').innerText;
+        const completed = item.classList.contains('lineThrough');
+        return { id, text, completed };
+    });
+    localStorage.setItem('todoList', JSON.stringify(listItems));
+}
+
+function loadFromLocalStorage() {
+    const savedList = JSON.parse(localStorage.getItem('todoList')) || [];
+    savedList.forEach(item => {
+        handleNewListItem(item.text, item.id, item.completed);
+    });
+}
+
+
+document.addEventListener('DOMContentLoaded', loadFromLocalStorage);
 
 
